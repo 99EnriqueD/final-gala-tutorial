@@ -1,18 +1,13 @@
 # Final-Gala Tutorial
 
 ## Step 1
-<!-- During this tutorial we will show you how to make a propeller appear on the screen of the micobit. 
-For this, we only need the ``||basic:forever||`` block. You can delete a block by dragging the block to the toolbox on the left of your screen. 
-You can try this now for the ``||basic:on start||`` block. -->
-
 Hello there, Thanks for checking out team RVO-Society's final gala booth!
 This short tutorial will give you a taste of what it's like to program with MakeCode, a simple programming language we used in our IoTeach product.
-
 If you get stuck, be sure to ask any of us in the booth. We are happy to help!
 Let's go!
 
 ## Step 2
-"Hello world" is a classic phrase in the programming world. 
+"Hello world!" is a classic phrase in the programming world. 
 It's a way to show that our code actually runs.
 Let's make your (virtual) micro:bit say "Hello world!" by adding a ``||basic:show string||`` block to the ``||basic:on start||`` block that's already in your program. 
 You can find it in the ``||basic:Basic||`` folder of the same color.
@@ -40,7 +35,7 @@ basic.forever(function () {
 
 ## Step 4
 Since we are programming on a micro:bit (albeit a virtual one), let's use some of that (virtual) hardware!
-Add an ``||input: on button A pressed||`` block next to the ``||basic:on forever||`` block.
+Add an ``||input: on button A pressed||`` block anywhere outside of the ``||basic:on forever||`` or ``||basic:on start||`` blocks.
 This will run any blocks inside of it whenever the micro:bit's A button is touched.
 
 ```blocks
@@ -61,9 +56,10 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Step 6
-On your virtual micro:bit you can change how bright its environment is.
-Go ahead and change its light level by dragging up or down on this light level with your mouse.
-Press the ``||input:A||`` button and, voila, the correct number appears on the micro:bit's leds.
+On your virtual micro:bit you can change how bright its environment is. 
+After you press the ``||input:A||`` button, a half-filled circle will appear on your virtual micro:bit.
+Go ahead and change its light level by dragging up or down on this circle with your mouse.
+Press the ``||input:A||`` again button and, voila, the correct number appears on the micro:bit's leds.
 
 ## Step 7
 That's all for this tutorial! 
